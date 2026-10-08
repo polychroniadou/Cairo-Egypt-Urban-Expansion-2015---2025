@@ -10,4 +10,4 @@ Study area map. The city of Cairo in the year 2025
 
 ![Urban expansion 2015-2025](urban%20expantion%202015-2025.jpg)
 Binary Classification of Urban and Non-Urban land, where the orange colour highlights the urban land in the year 2015 and green colour shopws the expansion until 2025.
-![Urban expansion 2015-2025](Cairo_urban_class15-25.jpg)
+![Urban expansion 2015-2025](Cairo_urban_class15-25.png)
