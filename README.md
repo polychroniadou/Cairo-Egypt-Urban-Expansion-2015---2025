@@ -82,7 +82,7 @@ Despite the high accuracy, visual inspection showed misclassification mainly in 
 
 ## Limitations and next steps
 
-- Accuracy is measured on a random split of the same training samples. An independent validation set would give a more reliable estimate `[add if you have one]`.
+- Accuracy is measured on a random split of the same training samples. An independent validation set would give a more reliable estimate.
 - Only two classes (built-up / non-built-up). A multi-class land cover map would show what land was converted to urban.
 - Possible improvements: add spectral indices such as NDBI or NDVI as input features, or add more training samples in sandy areas.
 
