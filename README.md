@@ -102,6 +102,23 @@ Training_Data/    Training samples (shapefile)
 
 ## Reference
 
-Osman, T., Arima, T. & Divigalpitiya, P. (2016). Measuring Urban Sprawl Patterns in Greater Cairo Metropolitan Region. *Journal of the Indian Society of Remote Sensing*, 44, 287-295. https://doi.org/10.1007/s12524-015-0489-6
+Yanyan Dong · Xiaogao Chang (2026), Spatio‑temporal analysis of land use and land cover changes: assessing urban expansion and ecological transformations (2003–2023),GeoJournal
+
+H. N. Manh, T. V. Anh et.al. (2025), Urban Expansion Monitoring Using Sentinel-1 and Sentinel-2 Data Fusion on Google Earth Engine, Volume2: Earth, Mine, and Environmental Sciences for Green, Sustainable, and Prosperous Development.
+
+Osman, T., Arima, T. & Divigalpitiya, (2016), Measuring Urban Sprawl Patterns in Greater Cairo Metropolitan Region, P. J Indian Soc Remote Sens 44, 287–295. https://doi.org/10.1007/s12524-015-0489-6    
+
+Radek Silhavy, Petr Silhavy (2024), Machine Learning Methods in Systems, Proceedings of 13th Computer Science On-line Conference, Vol.4
+
+Reynaldo Hinojosa-Contreras a, Eric Gielen a, José-Sergio Palencia-Jiménez a, Isidro Cantarino-Mart (2026), Urban sprawl in Latin America: A systematic review of the existing literature and emerging insights, Land Use Policy, Volume165
+
+Africa Cities by Population 2026. (2026-04-10). World Population Review.
+Available:
+https://worldpopulationreview.com/cities/continent/africa 
+
+ESA - European Space Agency, Κάιρο, εισαγωγή.
+Available: 
+https://www.esa.int/SPECIALS/Eduspace_Global_GR/SEM0G3ZOBFG_2.html  
+
 
 *Project developed at the University of the Aegean, Department of Geography.*
