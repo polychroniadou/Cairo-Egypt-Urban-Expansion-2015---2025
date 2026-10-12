@@ -85,7 +85,7 @@ The 2015 model achieved an **Overall Accuracy of 99.0%** (All Confusion Matrix),
 
 <!-- MATLAB 4-Panel Confusion Matrix for 2015 -->
 <!-- Save exported plot as: Plots-2015/confusion_matrix_2015.png -->
-![Table 2. Confusion Matrices 2015](Plots-2015/confusion_matrix_2015.png)
+![Table 2. Confusion Matrices 2015](Plots-2015/All_Confusion_Matrix.png)
 *Table 2. MATLAB Confusion Matrices (Validation, Training, Test, All) for 2015.*
 
 #### Table 3 & 4. ROC Curves and Performance Plot (2015)
@@ -94,8 +94,8 @@ Cross-entropy error decreased smoothly across training, validation, and test sub
 <!-- MATLAB ROC Curves and Performance Plot for 2015 -->
 <!-- Save exported plots as: Plots-2015/roc_curves_2015.png and Plots-2015/performance_plot_2015.png -->
 <p align="center">
-  <img src="Plots-2015/roc_curves_2015.png" width="48%" alt="ROC Curves 2015" />
-  <img src="Plots-2015/performance_plot_2015.png" width="48%" alt="Performance Plot 2015" />
+  <img src="Plots-2015/ROC_Curves.png" width="48%"  />
+  <img src="Plots-2015/Performance_Plots.png" width="48%"  />
 </p>
 *Table 3 (left): ROC Curves for 2015. Table 4 (right): Cross-Entropy Performance Plot showing best validation at epoch 155 (0.027242).*
 
@@ -137,7 +137,7 @@ The 2025 model achieved an **Overall Accuracy of 97.0%** (All Confusion Matrix).
 
 <!-- MATLAB 4-Panel Confusion Matrix for 2025 -->
 <!-- Save exported plot as: Plots-2025/confusion_matrix_2025.png -->
-![Table 6. Confusion Matrices 2025](Plots-2025/confusion_matrix_2025.png)
+![Table 6. Confusion Matrices 2025](Plots-2025/All_COnfusion_Matrix.png)
 *Table 6. MATLAB Confusion Matrices (Validation, Training, Test, All) for 2025.*
 
 #### Table 7. Performance Plot (2025)
@@ -145,7 +145,7 @@ Cross-entropy error decreased steadily across all 95 epochs, with validation and
 
 <!-- MATLAB Performance Plot for 2025 -->
 <!-- Save exported plot as: Plots-2025/performance_plot_2025.png -->
-![Table 7. Performance Plot 2025](Plots-2025/performance_plot_2025.png)
+![Table 7. Performance Plot 2025](Plots-2025/Performance_Plot.png)
 *Table 7. Cross-Entropy Performance Plot for 2025 showing best validation at epoch 89 (0.10093).*
 
 ![Figure 3. Cairo Urban Classification 2025](Cairo_urban_class25.png)
