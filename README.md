@@ -31,9 +31,6 @@ Over the past 50 years, Egypt has experienced intense urbanization, with the urb
 *Sentinel-2 multi-spectral composite acquisitions covering Greater Cairo for 13 August 2015 (left) and 25 August 2025 (right).*
 
 
-![Figure 1. Study Area Location Map](images/Figure1_study_area_cairo_2025.png)
-*Figure 1. Study Area Location Map: Cairo, New Cairo, and the Nile River corridor (Scale 1:430,000).*
-
 ### 2.2 Satellite Data and Reference System
 Multi-spectral imagery was obtained from the European Space Agency (ESA) via the Copernicus Open Access platform:
 * **Sentinel-2A:** Acquired 13 August 2015
