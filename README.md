@@ -159,7 +159,10 @@ The analysis quantifies rapid, massive eastward and peri-urban expansion, promin
 1. Yanyan Dong, Xiaogao Chang (2026), Spatio-temporal analysis of land use and land cover changes: assessing urban expansion and ecological transformations (2003–2023), GeoJournal.
 2. H. N. Manh, T. V. Anh et al. (2025), Urban Expansion Monitoring Using Sentinel-1 and Sentinel-2 Data Fusion on Google Earth Engine, Volume 2: Earth, Mine, and Environmental Sciences for Green, Sustainable, and Prosperous Development.
 3. Osman, T., Arima, T. & Divigalpitiya, P. (2016), Measuring Urban Sprawl Patterns in Greater Cairo Metropolitan Region, J Indian Soc Remote Sens 44, 287–295.
-4. European Space Agency (ESA), Cairo Overview and Urban Monitoring. Available: https://www.esa.int/SPECIALS/Eduspace_Global_GR/SEM0G3ZOBFG_2.html
+4. Radek Silhavy, Petr Silhavy (2024), Machine Learning Methods in Systems, Proceedings of 13th Computer Science On-line Conference, Vol. 4.
+5. Reynaldo Hinojosa-Contreras, Eric Gielen, José-Sergio Palencia-Jiménez, Isidro Cantarino-Mart (2026), Urban sprawl in Latin America: A systematic review of the existing literature and emerging insights, Land Use Policy, Volume 165.
+6. World Population Review (2026), Africa Cities by Population 2026. Available: https://worldpopulationreview.com/cities/continent/africa
+7. European Space Agency (ESA), Cairo Overview and Urban Monitoring. Available: https://www.esa.int/SPECIALS/Eduspace_Global_GR/SEM0G3ZOBFG_2.html
 
 ---
 *Project developed at the University of the Aegean, Department of Geography.*
