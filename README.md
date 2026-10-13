@@ -30,8 +30,7 @@ Over the past 50 years, Egypt has experienced intense urbanization, with the urb
 </p>
 *Sentinel-2 multi-spectral composite acquisitions covering Greater Cairo for 13 August 2015 (left) and 25 August 2025 (right).*
 
-<!-- Figure 1 from paper: Study Area Map (Scale 1:430,000) -->
-<!-- Save exported map as: images/Figure1_study_area_cairo_2025.png -->
+
 ![Figure 1. Study Area Location Map](images/Figure1_study_area_cairo_2025.png)
 *Figure 1. Study Area Location Map: Cairo, New Cairo, and the Nile River corridor (Scale 1:430,000).*
 
@@ -45,7 +44,7 @@ August acquisitions were specifically selected to guarantee minimal cloud cover,
 * **Coordinate Reference System:** All datasets were projected to **WGS 84 / UTM zone 36N (EPSG:32636)**.
 
 ### 2.3 Methodology
-1. **Training Sample Collection:** Polygons defining Built-up (Class 1) and Non-built-up (Class 0) areas were digitized in GIS across the multi-band composite rasters. The identical training shapefile was applied across both 2015 and 2025 datasets to ensure consistent class definitions.
+1. **Training Sample Collection:** Polygons defining Built-up (Class 1) and Non-built-up (Class 0) areas were digitized in GIS across the multi-band composite rasters. Ground truth reference polygons were digitized across stable, persistent land cover classes (core urban fabric, permanent water bodies, and undisturbed deep desert) to establish consistent, baseline spectral signatures across both the 2015 and 2025 Sentinel-2 scenes.
 2. **ANN Architecture:** A pattern recognition network (`patternnet`) was configured in MATLAB to distinguish the two classes.
 3. **Training & Validation:** Multiple training runs were conducted and evaluated using Confusion Matrices, Receiver Operating Characteristic (ROC) curves, and Cross-Entropy Performance Plots.
 4. **Vectorized Inference & Verification:** The optimal network weights classified the full-scene rasters using vectorized script execution, followed by GIS post-processing and spatial validation.
@@ -83,16 +82,13 @@ The 2015 model achieved an **Overall Accuracy of 99.0%** (All Confusion Matrix),
 * **Validation Accuracy:** 99.0%
 * **Test Accuracy:** 98.7% (False Positives: 0.7% / 3 samples, False Negatives: 0.7% / 3 samples)
 
-<!-- MATLAB 4-Panel Confusion Matrix for 2015 -->
-<!-- Save exported plot as: Plots-2015/confusion_matrix_2015.png -->
+
 ![Table 2. Confusion Matrices 2015](Plots-2015/Plots/All_Confusion_Matrix.png)
 *Table 2. MATLAB Confusion Matrices (Validation, Training, Test, All) for 2015.*
 
 #### Table 3 & 4. ROC Curves and Performance Plot (2015)
 Cross-entropy error decreased smoothly across training, validation, and test subsets. The validation and test curves track the training curve closely throughout, while ROC curves hug the upper-left axis, confirming high generalization capacity with no evidence of overfitting.
 
-<!-- MATLAB ROC Curves and Performance Plot for 2015 -->
-<!-- Save exported plots as: Plots-2015/roc_curves_2015.png and Plots-2015/performance_plot_2015.png -->
 <p align="center">
   <img src="Plots-2015/Plots/ROC_Curves.png" width="48%" />
   <img src="Plots-2015/Plots/Performance_Plots.png" width="48%"  />
@@ -135,16 +131,14 @@ The 2025 model achieved an **Overall Accuracy of 97.0%** (All Confusion Matrix).
 * **False Negatives:** 1.7% (72 samples)
 * **Test Evaluation:** 97.2% overall test accuracy (98.0% correct on Class 0, 96.2% on Class 1)
 
-<!-- MATLAB 4-Panel Confusion Matrix for 2025 -->
-<!-- Save exported plot as: Plots-2025/confusion_matrix_2025.png -->
+
 ![Table 6. Confusion Matrices 2025](Plots-2025/plots/All_Confusion_Matrix.png)
 *Table 6. MATLAB Confusion Matrices (Validation, Training, Test, All) for 2025.*
 
 #### Table 7. Performance Plot (2025)
 Cross-entropy error decreased steadily across all 95 epochs, with validation and test trajectories remaining closely aligned with training loss.
 
-<!-- MATLAB Performance Plot for 2025 -->
-<!-- Save exported plot as: Plots-2025/performance_plot_2025.png -->
+
 ![Table 7. Performance Plot 2025](Plots-2025/plots/Performance_Plot.png)
 *Table 7. Cross-Entropy Performance Plot for 2025 showing best validation at epoch 89 (0.10093).*
 
@@ -159,8 +153,7 @@ Despite high overall accuracies (>97%–99%), visual inspection highlighted loca
 2. **Mixed Pixels:** Transition zones between urban boundaries, irrigated agricultural parcels, and desert soils produce mixed-pixel spectral signatures.
 3. **Topographic Shading:** Dune topography introduces steep slope shadows that alter raw digital numbers, leading to false-positive built-up classifications.
 
-<!-- Zoomed inspection of dune misclassifications (Figures 4, 5, 6, 7 from paper) -->
-<!-- Save exported plots as: Plots-2015/Figures4_5_error_2015.png and Plots-2025/Figures6_7_error_2025.png -->
+
 <p align="center">
   <img src="Plots-2015/Figures4_5_error_2015.png" width="48%" alt="2015 Dune Misclassification Detail" />
   <img src="Plots-2025/Figures6_7_error_2025.png" width="48%" alt="2025 Dune Misclassification Detail" />
