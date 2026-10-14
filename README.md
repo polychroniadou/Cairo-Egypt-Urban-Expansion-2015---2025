@@ -64,7 +64,7 @@ Training of the 2015 neural network converged at **161 epochs**, achieving its *
 The 2015 model achieved an **Overall Accuracy of 99.0%** across the full dataset:
 - **Training Accuracy:** 99.1%
 - **Validation Accuracy:** 99.0%
-- **Test Accuracy:** 98.7% (False Positives: 0.7%, False Negatives: 0.7%)
+- **Test Accuracy:** 98.7% (False Positives: 0.6%, False Negatives: 0.4%)
 
 ![Table 2. Confusion Matrices 2015](Plots-2015/Plots/All_Confusion_Matrix.png)
 *Figure 1: Confusion matrices (Training, Validation, Test, All) for the 2015 model.*
