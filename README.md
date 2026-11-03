@@ -1,4 +1,4 @@
-# Binary Classification of Built Environment in Cairo Using MATLAB and GIS
+# Binary Classification of Built Environment in Cairo via Artificial Neural Networks (ANN)
 
 **Author:** Maria M. Polychroniadou  
 *University of the Aegean, Department of Geography*
